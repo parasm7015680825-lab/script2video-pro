@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.paras.generatedapp.ui.home.HomeFragment"
+        android:label="@string/home_title">
+        <action
+            android:id="@+id/action_home_to_scriptInput"
+            app:destination="@id/scriptInputFragment" />
+        <action
+            android:id="@+id/action_home_to_premium"
+            app:destination="@id/premiumFragment" />
+        <action
+            android:id="@+id/action_home_to_settings"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/scriptInputFragment"
+        android:name="com.paras.generatedapp.ui.script.ScriptInputFragment"
+        android:label="@string/script_input_title">
+        <action
+            android:id="@+id/action_script_to_duration"
+            app:destination="@id/durationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/durationFragment"
+        android:name="com.paras.generatedapp.ui.duration.DurationFragment"
+        android:label="@string/duration_title">
+        <action
+            android:id="@+id/action_duration_to_adUnlock"
+            app:destination="@id/adUnlockFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/adUnlockFragment"
+        android:name="com.paras.generatedapp.ui.ad.AdUnlockFragment"
+        android:label="@string/ad_unlock_title">
+        <action
+            android:id="@+id/action_ad_to_rendering"
+            app:destination="@id/renderingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/renderingFragment"
+        android:name="com.paras.generatedapp.ui.render.RenderingFragment"
+        android:label="@string/rendering_title">
+        <action
+            android:id="@+id/action_render_to_export"
+            app:destination="@id/exportFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/exportFragment"
+        android:name="com.paras.generatedapp.ui.export.ExportFragment"
+        android:label="@string/export_share_title" />
+
+    <fragment
+        android:id="@+id/premiumFragment"
+        android:name="com.paras.generatedapp.ui.premium.PremiumFragment"
+        android:label="@string/premium_title" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.paras.generatedapp.ui.settings.SettingsFragment"
+        android:label="@string/settings_title" />
+</navigation>
