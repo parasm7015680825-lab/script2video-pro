@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Script2Video Pro</string>
+    <string name="premium_user">Premium user</string>
+    <string name="free_user">Free user</string>
+    <string name="status_template">%1$s: %2$d / %3$d videos used today</string>
+    <string name="daily_limit_reached">Daily limit reached (%1$d videos)</string>
+    <string name="duration_template">Duration: %1$d min</string>
+    <string name="error_script_required">Script is required</string>
+    <string name="no_internet_ad_info">No internet connection. Ads cannot be loaded. You can continue but this may violate free usage rules.</string>
+    <string name="ad_not_ready">Ad is not ready yet. Please try again.</string>
+    <string name="must_watch_ad">You must watch a rewarded ad before generating a video.</string>
+    <string name="ad_load_failed">Failed to load ad. Please try again later.</string>
+    <string name="ad_ready_info">Ad loaded. Tap "Watch Ad" to continue.</string>
+    <string name="rendering_started">Rendering started...</string>
+    <string name="rendering_progress">Rendering... %1$d%%</string>
+    <string name="export_summary_template">File: %1$s
+Watermark: %2$s</string>
+    <string name="with_watermark">With watermark</string>
+    <string name="without_watermark">Without watermark</string>
+    <string name="share_video">Share video</string>
+    <string name="unknown">Unknown</string>
+    <string name="no_watermark_already">No watermark (premium or removed)</string>
+    <string name="sub_active">Premium subscription active. Enjoy ad-free, watermark-free rendering with up to 5 videos/day.</string>
+    <string name="sub_not_active">No active subscription. Free tier: 2 videos/day, ads required, watermark added.</string>
+    <string name="admob_reward_id">ca-app-pub-3940256099942544/5224354917</string>
+</resources>

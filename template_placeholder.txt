@@ -1,0 +1,2 @@
+Placeholder for video templates and animation descriptors.
+In a real implementation, you would place JSON, images, or other assets here.

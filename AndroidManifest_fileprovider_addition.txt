@@ -1,0 +1,11 @@
+To enable FileProvider, add the following inside <application> in AndroidManifest.xml if not already present:
+
+<provider
+    android:name="androidx.core.content.FileProvider"
+    android:authorities="com.paras.generatedapp.fileprovider"
+    android:exported="false"
+    android:grantUriPermissions="true">
+    <meta-data
+        android:name="android.support.FILE_PROVIDER_PATHS"
+        android:resource="@xml/file_paths" />
+</provider>
